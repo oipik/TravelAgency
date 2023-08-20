@@ -1,0 +1,46 @@
+html,
+body {
+   height: 100%;
+}
+
+%inter {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+%playfaier {
+   color: #112F38;
+   font-family: Playfair Display;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+
+.left {
+   width: 82px;
+   height: 45px;
+   border-radius: 33px;
+   border: 1px solid #FFF;
+   background: rgba(255, 255, 255, 0.54);
+   cursor: pointer;
+}
+
+.right {
+   width: 82px;
+   height: 45px;
+   border-radius: 33px;
+   border: 1px solid #FFF;
+   background: #FFF;
+   cursor: pointer;
+}
+
+.number {
+   @extend %inter;
+   margin: 0 17px;
+}
