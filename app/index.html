@@ -7,97 +7,104 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Travel Agency</title>
    <link rel="stylesheet" href="css/style.min.css">
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;700;800&display=swap" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;700;800&display=swap"
+      rel="stylesheet">
 </head>
 
 <body>
 
    <div class="header">
       <div class="header-bg__img">
-         <div class="header__top">
-            <div class="header__logo">
-               <img class="header__logo" src="./images/logo.png" alt="logo">
+         <div class="container">
+            <div class="header__top">
+               <div class="header__logo">
+                  <img class="header__logo" src="./images/logo.png" alt="logo">
+               </div>
+               <nav class="header__menu">
+                  <ul class="header__menu-list">
+                     <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Places</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">About</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Blog</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Contact</a>
+                     </li>
+                     <li class="header__menu-item header-menu__item-unique">
+                        <a href="#" class="header__menu-link">Take a trip</a>
+                     </li>
+                  </ul>
+               </nav>
             </div>
-            <nav class="header__menu">
-               <ul class="header__menu-list">
-                  <li class="header__menu-item">
-                     <a href="#" class="header__menu-link">Places</a>
+            <div class="header__content">
+               <h1 class="header__content-title">Explore the world with exciting people</h1>
+               <p class="header__content-about">We help people find co travellers and also structure their travel plans
+               </p>
+               <button class="header__content-btn">
+                  Take a Trip
+                  <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+                     <path d="M14.1667 8.5H2.83337" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path
+                        d="M10.625 12.0417C10.625 12.0417 14.1667 9.43334 14.1667 8.50004C14.1667 7.56674 10.625 4.95837 10.625 4.95837"
+                        stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+               </button>
+               <div class="header__content-slider">
+                  <button class="left">
+                     <svg width="35" height="34" viewBox="0 0 35 34" fill="none">
+                        <g id="arrow-right-02-round">
+                           <path id="Vector" d="M6.49105 17H29.1577" stroke="white" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                           <path id="Vector_2"
+                              d="M13.5745 24.0833C13.5745 24.0833 6.49113 18.8666 6.49113 17C6.49113 15.1334 13.5745 9.91663 13.5745 9.91663"
+                              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                     </svg>
+                  </button>
+                  <span class="number">1 / 3</span>
+                  <button class="right">
+                     <svg width="35" height="34" viewBox="0 0 35 34" fill="none">
+                        <g id="arrow-right-02-round">
+                           <path id="Vector" d="M29.1579 17H6.49121" stroke="#141B34" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                           <path id="Vector_2"
+                              d="M22.0745 24.0833C22.0745 24.0833 29.1578 18.8666 29.1578 17C29.1578 15.1334 22.0745 9.91663 22.0745 9.91663"
+                              stroke="#141B34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                     </svg>
+                  </button>
+               </div>
+               <hr class="header__content-line">
+               <ul class="header__content-list">
+                  <li class="header__content-item">
+                     <div class="header__content-number">01</div>
+                     <p class="header__content-text">Chose a place, activity and time</p>
+                     <span class="header__content-span">We help people find co travellers and also structure their
+                        travel
+                        plans </span>
                   </li>
-                  <li class="header__menu-item">
-                     <a href="#" class="header__menu-link">About</a>
+                  <li class="header__content-item">
+                     <div class="header__content-number">01</div>
+                     <p class="header__content-text">Chose a place, activity and time</p>
+                     <span class="header__content-span">We help people find co travellers and also structure their
+                        travel
+                        plans </span>
                   </li>
-                  <li class="header__menu-item">
-                     <a href="#" class="header__menu-link">Blog</a>
-                  </li>
-                  <li class="header__menu-item">
-                     <a href="#" class="header__menu-link">Contact</a>
-                  </li>
-                  <li class="header__menu-item header-menu__item-unique">
-                     <a href="#" class="header__menu-link">Take a trip</a>
+                  <li class="header__content-item">
+                     <div class="header__content-number">01</div>
+                     <p class="header__content-text">Chose a place, activity and time</p>
+                     <span class="header__content-span">We help people find co travellers and also structure their
+                        travel
+                        plans </span>
                   </li>
                </ul>
-            </nav>
-         </div>
-         <div class="header__content">
-            <h1 class="header__content-title">Explore the world with exciting people</h1>
-            <p class="header__content-about">We help people find co travellers and also structure their travel plans
-            </p>
-            <button class="header__content-btn">
-               <span style="display: block">Take a Trip</span>
-               <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
-                  <path d="M14.1667 8.5H2.83337" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
-                     stroke-linejoin="round" />
-                  <path
-                     d="M10.625 12.0417C10.625 12.0417 14.1667 9.43334 14.1667 8.50004C14.1667 7.56674 10.625 4.95837 10.625 4.95837"
-                     stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-               </svg>
-            </button>
-            <div class="header__content-slider">
-               <button class="left">
-                  <svg width="35" height="34" viewBox="0 0 35 34" fill="none">
-                     <g id="arrow-right-02-round">
-                        <path id="Vector" d="M6.49105 17H29.1577" stroke="white" stroke-width="2" stroke-linecap="round"
-                           stroke-linejoin="round" />
-                        <path id="Vector_2"
-                           d="M13.5745 24.0833C13.5745 24.0833 6.49113 18.8666 6.49113 17C6.49113 15.1334 13.5745 9.91663 13.5745 9.91663"
-                           stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                     </g>
-                  </svg>
-               </button>
-               <span class="number">1 / 3</span>
-               <button class="right">
-                  <svg width="35" height="34" viewBox="0 0 35 34" fill="none">
-                     <g id="arrow-right-02-round">
-                        <path id="Vector" d="M29.1579 17H6.49121" stroke="#141B34" stroke-width="2"
-                           stroke-linecap="round" stroke-linejoin="round" />
-                        <path id="Vector_2"
-                           d="M22.0745 24.0833C22.0745 24.0833 29.1578 18.8666 29.1578 17C29.1578 15.1334 22.0745 9.91663 22.0745 9.91663"
-                           stroke="#141B34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                     </g>
-                  </svg>
-               </button>
             </div>
-            <hr class="header__content-line">
-            <ul class="header__content-list">
-               <li class="header__content-item">
-                  <div class="header__content-number">01</div>
-                  <p class="header__content-text">Chose a place, activity and time</p>
-                  <span class="header__content-span">We help people find co travellers and also structure their travel
-                     plans </span>
-               </li>
-               <li class="header__content-item">
-                  <div class="header__content-number">01</div>
-                  <p class="header__content-text">Chose a place, activity and time</p>
-                  <span class="header__content-span">We help people find co travellers and also structure their travel
-                     plans </span>
-               </li>
-               <li class="header__content-item">
-                  <div class="header__content-number">01</div>
-                  <p class="header__content-text">Chose a place, activity and time</p>
-                  <span class="header__content-span">We help people find co travellers and also structure their travel
-                     plans </span>
-               </li>
-            </ul>
          </div>
       </div>
    </div>
@@ -183,52 +190,231 @@
    <!-- Lets us worry about your plans,
    Just get packed -->
    <div class="getpacked">
-      <p class="getpacked-text">Where do you want to go</p>
-      <div class="getpacked__box">
-         <h1 class="getpacked__box-title">
-            Lets us worry about your plans,
-            Just get packed
-         </h1>
-         <button class="getpacked__box-link"></button>
-      </div>
-      <div class="getpacked__items">
-         <div class="getpacked__item">
-            <img src="" alt="photo">
+      <div class="container">
+         <p class="getpacked__text-up text-up">Where do you want to go</p>
+         <div class="getpacked__box">
+            <h1 class="getpacked__box-title title ">
+               Lets us worry about your plans,
+               Just get packed
+            </h1>
+            <button class="getpacked__box-link">
+               Take a trip
+               <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+                  <path d="M14.1666 8.5H2.83325" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                     stroke-linejoin="round" />
+                  <path
+                     d="M10.625 12.0417C10.625 12.0417 14.1667 9.43331 14.1667 8.50001C14.1667 7.56671 10.625 4.95834 10.625 4.95834"
+                     stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+               </svg>
+            </button>
          </div>
-         <div class="getpacked__item">
-            <svg width="43" height="43" viewBox="0 0 43 43" fill="none">
-               <path
-                  d="M40.3125 18.8125H38.4044L33.8037 10.7601C33.5686 10.3488 33.229 10.007 32.8193 9.76925C32.4096 9.53151 31.9443 9.40628 31.4706 9.40625H11.5294C11.0557 9.40628 10.5904 9.53151 10.1807 9.76925C9.77096 10.007 9.43136 10.3488 9.19629 10.7601L4.59563 18.8125H2.6875C2.33112 18.8125 1.98933 18.9541 1.73733 19.2061C1.48532 19.4581 1.34375 19.7999 1.34375 20.1562C1.34375 20.5126 1.48532 20.8544 1.73733 21.1064C1.98933 21.3584 2.33112 21.5 2.6875 21.5H4.03125V34.9375C4.03125 35.6503 4.3144 36.3338 4.8184 36.8378C5.3224 37.3419 6.00598 37.625 6.71875 37.625H10.75C11.4628 37.625 12.1463 37.3419 12.6503 36.8378C13.1544 36.3338 13.4375 35.6503 13.4375 34.9375V32.25H29.5625V34.9375C29.5625 35.6503 29.8456 36.3338 30.3497 36.8378C30.8537 37.3419 31.5372 37.625 32.25 37.625H36.2812C36.994 37.625 37.6776 37.3419 38.1816 36.8378C38.6856 36.3338 38.9688 35.6503 38.9688 34.9375V21.5H40.3125C40.6689 21.5 41.0107 21.3584 41.2627 21.1064C41.5147 20.8544 41.6562 20.5126 41.6562 20.1562C41.6562 19.7999 41.5147 19.4581 41.2627 19.2061C41.0107 18.9541 40.6689 18.8125 40.3125 18.8125ZM11.5294 12.0938H31.4706L35.3087 18.8125H7.69129L11.5294 12.0938ZM10.75 34.9375H6.71875V32.25H10.75V34.9375ZM32.25 34.9375V32.25H36.2812V34.9375H32.25ZM36.2812 29.5625H6.71875V21.5H36.2812V29.5625ZM9.40625 25.5312C9.40625 25.1749 9.54782 24.8331 9.79983 24.5811C10.0518 24.3291 10.3936 24.1875 10.75 24.1875H13.4375C13.7939 24.1875 14.1357 24.3291 14.3877 24.5811C14.6397 24.8331 14.7812 25.1749 14.7812 25.5312C14.7812 25.8876 14.6397 26.2294 14.3877 26.4814C14.1357 26.7334 13.7939 26.875 13.4375 26.875H10.75C10.3936 26.875 10.0518 26.7334 9.79983 26.4814C9.54782 26.2294 9.40625 25.8876 9.40625 25.5312ZM28.2188 25.5312C28.2188 25.1749 28.3603 24.8331 28.6123 24.5811C28.8643 24.3291 29.2061 24.1875 29.5625 24.1875H32.25C32.6064 24.1875 32.9482 24.3291 33.2002 24.5811C33.4522 24.8331 33.5938 25.1749 33.5938 25.5312C33.5938 25.8876 33.4522 26.2294 33.2002 26.4814C32.9482 26.7334 32.6064 26.875 32.25 26.875H29.5625C29.2061 26.875 28.8643 26.7334 28.6123 26.4814C28.3603 26.2294 28.2188 25.8876 28.2188 25.5312ZM16.125 5.375C16.125 5.01862 16.2666 4.67683 16.5186 4.42483C16.7706 4.17282 17.1124 4.03125 17.4688 4.03125H25.5312C25.8876 4.03125 26.2294 4.17282 26.4814 4.42483C26.7334 4.67683 26.875 5.01862 26.875 5.375C26.875 5.73138 26.7334 6.07317 26.4814 6.32517C26.2294 6.57718 25.8876 6.71875 25.5312 6.71875H17.4688C17.1124 6.71875 16.7706 6.57718 16.5186 6.32517C16.2666 6.07317 16.125 5.73138 16.125 5.375Z"
-                  fill="#0E3D4D" />
-            </svg>
-            <h4 class="getpacked__title">Rent a car</h4>
-            <p class="getpacked__text">Lorem ipsum dolor sit amet consecteur fin dren</p>
-            <a class="getpacked__link" href="#">
-               Lets Go
-               <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
-                  <path
-                     d="M21.6465 13.0527L14.6152 20.084C14.4686 20.2306 14.2698 20.3129 14.0625 20.3129C13.8552 20.3129 13.6564 20.2306 13.5098 20.084C13.3632 19.9374 13.2808 19.7386 13.2808 19.5313C13.2808 19.3239 13.3632 19.1251 13.5098 18.9785L19.208 13.2813H3.90625C3.69905 13.2813 3.50034 13.1989 3.35382 13.0524C3.20731 12.9059 3.125 12.7072 3.125 12.5C3.125 12.2928 3.20731 12.0941 3.35382 11.9476C3.50034 11.8011 3.69905 11.7188 3.90625 11.7188H19.208L13.5098 6.02149C13.3632 5.8749 13.2808 5.67607 13.2808 5.46876C13.2808 5.26144 13.3632 5.06262 13.5098 4.91602C13.6564 4.76943 13.8552 4.68707 14.0625 4.68707C14.2698 4.68707 14.4686 4.76943 14.6152 4.91602L21.6465 11.9473C21.7191 12.0198 21.7767 12.106 21.8161 12.2008C21.8554 12.2957 21.8756 12.3973 21.8756 12.5C21.8756 12.6027 21.8554 12.7043 21.8161 12.7992C21.7767 12.894 21.7191 12.9802 21.6465 13.0527Z"
-                     fill="#0E3D4D" />
-               </svg>
-            </a>
-            <svg width="43" height="43" viewBox="0 0 43 43" fill="none">
-               <path
-                  d="M34.9375 12.0938H4.03125V8.0625C4.03125 7.70612 3.88968 7.36433 3.63767 7.11233C3.38567 6.86032 3.04388 6.71875 2.6875 6.71875C2.33112 6.71875 1.98933 6.86032 1.73733 7.11233C1.48532 7.36433 1.34375 7.70612 1.34375 8.0625V34.9375C1.34375 35.2939 1.48532 35.6357 1.73733 35.8877C1.98933 36.1397 2.33112 36.2812 2.6875 36.2812C3.04388 36.2812 3.38567 36.1397 3.63767 35.8877C3.88968 35.6357 4.03125 35.2939 4.03125 34.9375V29.5625H38.9688V34.9375C38.9688 35.2939 39.1103 35.6357 39.3623 35.8877C39.6143 36.1397 39.9561 36.2812 40.3125 36.2812C40.6689 36.2812 41.0107 36.1397 41.2627 35.8877C41.5147 35.6357 41.6562 35.2939 41.6562 34.9375V18.8125C41.6562 17.0306 40.9484 15.3216 39.6884 14.0616C38.4284 12.8016 36.7194 12.0938 34.9375 12.0938ZM4.03125 14.7812H16.125V26.875H4.03125V14.7812ZM18.8125 26.875V14.7812H34.9375C36.0067 14.7812 37.032 15.206 37.788 15.962C38.544 16.718 38.9688 17.7433 38.9688 18.8125V26.875H18.8125Z"
-                  fill="#0E3D4D" />
-            </svg>
-            <h4 class="getpacked__title">Rent a car</h4>
-            <p class="getpacked__text">Lorem ipsum dolor sit amet consecteur fin dren</p>
-            <a class="getpacked__link" href="#">
-               Lets Go
-               <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
-                  <path
-                     d="M21.6465 13.0527L14.6152 20.084C14.4686 20.2306 14.2698 20.3129 14.0625 20.3129C13.8552 20.3129 13.6564 20.2306 13.5098 20.084C13.3632 19.9374 13.2808 19.7386 13.2808 19.5313C13.2808 19.3239 13.3632 19.1251 13.5098 18.9785L19.208 13.2813H3.90625C3.69905 13.2813 3.50034 13.1989 3.35382 13.0524C3.20731 12.9059 3.125 12.7072 3.125 12.5C3.125 12.2928 3.20731 12.0941 3.35382 11.9476C3.50034 11.8011 3.69905 11.7188 3.90625 11.7188H19.208L13.5098 6.02149C13.3632 5.8749 13.2808 5.67607 13.2808 5.46876C13.2808 5.26144 13.3632 5.06262 13.5098 4.91602C13.6564 4.76943 13.8552 4.68707 14.0625 4.68707C14.2698 4.68707 14.4686 4.76943 14.6152 4.91602L21.6465 11.9473C21.7191 12.0198 21.7767 12.106 21.8161 12.2008C21.8554 12.2957 21.8756 12.3973 21.8756 12.5C21.8756 12.6027 21.8554 12.7043 21.8161 12.7992C21.7767 12.894 21.7191 12.9802 21.6465 13.0527Z"
-                     fill="#0E3D4D" />
-               </svg>
-            </a>
+         <div class="getpacked__items">
+            <div class="getpacked__item">
+               <img src="./images/getpacked/getpacked.png" alt="photo">
+            </div>
+            <div class="getpacked__item">
+               <div class="getpacked__item-first">
+                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none">
+                     <path
+                        d="M40.3125 18.8125H38.4044L33.8037 10.7601C33.5686 10.3488 33.229 10.007 32.8193 9.76925C32.4096 9.53151 31.9443 9.40628 31.4706 9.40625H11.5294C11.0557 9.40628 10.5904 9.53151 10.1807 9.76925C9.77096 10.007 9.43136 10.3488 9.19629 10.7601L4.59563 18.8125H2.6875C2.33112 18.8125 1.98933 18.9541 1.73733 19.2061C1.48532 19.4581 1.34375 19.7999 1.34375 20.1562C1.34375 20.5126 1.48532 20.8544 1.73733 21.1064C1.98933 21.3584 2.33112 21.5 2.6875 21.5H4.03125V34.9375C4.03125 35.6503 4.3144 36.3338 4.8184 36.8378C5.3224 37.3419 6.00598 37.625 6.71875 37.625H10.75C11.4628 37.625 12.1463 37.3419 12.6503 36.8378C13.1544 36.3338 13.4375 35.6503 13.4375 34.9375V32.25H29.5625V34.9375C29.5625 35.6503 29.8456 36.3338 30.3497 36.8378C30.8537 37.3419 31.5372 37.625 32.25 37.625H36.2812C36.994 37.625 37.6776 37.3419 38.1816 36.8378C38.6856 36.3338 38.9688 35.6503 38.9688 34.9375V21.5H40.3125C40.6689 21.5 41.0107 21.3584 41.2627 21.1064C41.5147 20.8544 41.6562 20.5126 41.6562 20.1562C41.6562 19.7999 41.5147 19.4581 41.2627 19.2061C41.0107 18.9541 40.6689 18.8125 40.3125 18.8125ZM11.5294 12.0938H31.4706L35.3087 18.8125H7.69129L11.5294 12.0938ZM10.75 34.9375H6.71875V32.25H10.75V34.9375ZM32.25 34.9375V32.25H36.2812V34.9375H32.25ZM36.2812 29.5625H6.71875V21.5H36.2812V29.5625ZM9.40625 25.5312C9.40625 25.1749 9.54782 24.8331 9.79983 24.5811C10.0518 24.3291 10.3936 24.1875 10.75 24.1875H13.4375C13.7939 24.1875 14.1357 24.3291 14.3877 24.5811C14.6397 24.8331 14.7812 25.1749 14.7812 25.5312C14.7812 25.8876 14.6397 26.2294 14.3877 26.4814C14.1357 26.7334 13.7939 26.875 13.4375 26.875H10.75C10.3936 26.875 10.0518 26.7334 9.79983 26.4814C9.54782 26.2294 9.40625 25.8876 9.40625 25.5312ZM28.2188 25.5312C28.2188 25.1749 28.3603 24.8331 28.6123 24.5811C28.8643 24.3291 29.2061 24.1875 29.5625 24.1875H32.25C32.6064 24.1875 32.9482 24.3291 33.2002 24.5811C33.4522 24.8331 33.5938 25.1749 33.5938 25.5312C33.5938 25.8876 33.4522 26.2294 33.2002 26.4814C32.9482 26.7334 32.6064 26.875 32.25 26.875H29.5625C29.2061 26.875 28.8643 26.7334 28.6123 26.4814C28.3603 26.2294 28.2188 25.8876 28.2188 25.5312ZM16.125 5.375C16.125 5.01862 16.2666 4.67683 16.5186 4.42483C16.7706 4.17282 17.1124 4.03125 17.4688 4.03125H25.5312C25.8876 4.03125 26.2294 4.17282 26.4814 4.42483C26.7334 4.67683 26.875 5.01862 26.875 5.375C26.875 5.73138 26.7334 6.07317 26.4814 6.32517C26.2294 6.57718 25.8876 6.71875 25.5312 6.71875H17.4688C17.1124 6.71875 16.7706 6.57718 16.5186 6.32517C16.2666 6.07317 16.125 5.73138 16.125 5.375Z"
+                        fill="#0E3D4D" />
+                  </svg>
+                  <h4 class="getpacked__title">Rent a car</h4>
+                  <p class="getpacked__text">Lorem ipsum dolor sit amet consecteur fin dren</p>
+                  <a class="getpacked__link" href="#">
+                     <span class="getpacked__link-text">Lets Go</span>
+                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+                        <path
+                           d="M21.6465 13.0527L14.6152 20.084C14.4686 20.2306 14.2698 20.3129 14.0625 20.3129C13.8552 20.3129 13.6564 20.2306 13.5098 20.084C13.3632 19.9374 13.2808 19.7386 13.2808 19.5313C13.2808 19.3239 13.3632 19.1251 13.5098 18.9785L19.208 13.2813H3.90625C3.69905 13.2813 3.50034 13.1989 3.35382 13.0524C3.20731 12.9059 3.125 12.7072 3.125 12.5C3.125 12.2928 3.20731 12.0941 3.35382 11.9476C3.50034 11.8011 3.69905 11.7188 3.90625 11.7188H19.208L13.5098 6.02149C13.3632 5.8749 13.2808 5.67607 13.2808 5.46876C13.2808 5.26144 13.3632 5.06262 13.5098 4.91602C13.6564 4.76943 13.8552 4.68707 14.0625 4.68707C14.2698 4.68707 14.4686 4.76943 14.6152 4.91602L21.6465 11.9473C21.7191 12.0198 21.7767 12.106 21.8161 12.2008C21.8554 12.2957 21.8756 12.3973 21.8756 12.5C21.8756 12.6027 21.8554 12.7043 21.8161 12.7992C21.7767 12.894 21.7191 12.9802 21.6465 13.0527Z"
+                           fill="#0E3D4D" />
+                     </svg>
+                  </a>
+               </div>
+               <div class="getpacked__item-second">
+                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none">
+                     <path
+                        d="M34.9375 12.0938H4.03125V8.0625C4.03125 7.70612 3.88968 7.36433 3.63767 7.11233C3.38567 6.86032 3.04388 6.71875 2.6875 6.71875C2.33112 6.71875 1.98933 6.86032 1.73733 7.11233C1.48532 7.36433 1.34375 7.70612 1.34375 8.0625V34.9375C1.34375 35.2939 1.48532 35.6357 1.73733 35.8877C1.98933 36.1397 2.33112 36.2812 2.6875 36.2812C3.04388 36.2812 3.38567 36.1397 3.63767 35.8877C3.88968 35.6357 4.03125 35.2939 4.03125 34.9375V29.5625H38.9688V34.9375C38.9688 35.2939 39.1103 35.6357 39.3623 35.8877C39.6143 36.1397 39.9561 36.2812 40.3125 36.2812C40.6689 36.2812 41.0107 36.1397 41.2627 35.8877C41.5147 35.6357 41.6562 35.2939 41.6562 34.9375V18.8125C41.6562 17.0306 40.9484 15.3216 39.6884 14.0616C38.4284 12.8016 36.7194 12.0938 34.9375 12.0938ZM4.03125 14.7812H16.125V26.875H4.03125V14.7812ZM18.8125 26.875V14.7812H34.9375C36.0067 14.7812 37.032 15.206 37.788 15.962C38.544 16.718 38.9688 17.7433 38.9688 18.8125V26.875H18.8125Z"
+                        fill="#0E3D4D" />
+                  </svg>
+                  <h4 class="getpacked__title">Rent a car</h4>
+                  <p class="getpacked__text">Lorem ipsum dolor sit amet consecteur fin dren</p>
+                  <a class="getpacked__link" href="#">
+                     Lets Go
+                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+                        <path
+                           d="M21.6465 13.0527L14.6152 20.084C14.4686 20.2306 14.2698 20.3129 14.0625 20.3129C13.8552 20.3129 13.6564 20.2306 13.5098 20.084C13.3632 19.9374 13.2808 19.7386 13.2808 19.5313C13.2808 19.3239 13.3632 19.1251 13.5098 18.9785L19.208 13.2813H3.90625C3.69905 13.2813 3.50034 13.1989 3.35382 13.0524C3.20731 12.9059 3.125 12.7072 3.125 12.5C3.125 12.2928 3.20731 12.0941 3.35382 11.9476C3.50034 11.8011 3.69905 11.7188 3.90625 11.7188H19.208L13.5098 6.02149C13.3632 5.8749 13.2808 5.67607 13.2808 5.46876C13.2808 5.26144 13.3632 5.06262 13.5098 4.91602C13.6564 4.76943 13.8552 4.68707 14.0625 4.68707C14.2698 4.68707 14.4686 4.76943 14.6152 4.91602L21.6465 11.9473C21.7191 12.0198 21.7767 12.106 21.8161 12.2008C21.8554 12.2957 21.8756 12.3973 21.8756 12.5C21.8756 12.6027 21.8554 12.7043 21.8161 12.7992C21.7767 12.894 21.7191 12.9802 21.6465 13.0527Z"
+                           fill="#0E3D4D" />
+                     </svg>
+                  </a>
+               </div>
+            </div>
          </div>
       </div>
    </div>
+
+   <!-- Journies -->
+   <div class="journeys">
+      <div class="container">
+         <p class="journeys__text-up text-up">Trip Gallery</p>
+         <h1 class="journeys__title title">Completed Journeys</h1>
+         <div class="journeys__box">
+
+
+         </div>
+         <button class="journeys__btn-all">
+            See all journeys
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+               <path d="M14.1667 8.5H2.83337" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+               <path
+                  d="M10.625 12.0416C10.625 12.0416 14.1667 9.43322 14.1667 8.49992C14.1667 7.56662 10.625 4.95825 10.625 4.95825"
+                  stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+         </button>
+      </div>
+   </div>
+
+   <div class="reviews">
+      <div class="container">
+         <p class="reviews__text-up text-up">Testimonials</p>
+         <h1 class="reviews__title title">Don't take our word for it</h1>
+         <p class="reviews__text">"I had the most incredible vacation experience thanks to the amazing team at XYZ
+            Travel Agency! From the moment I contacted them, their friendly and knowledgeable staff helped me plan the
+            perfect itinerary. They took care of every detail, from booking flights and accommodations to arranging
+            local tours and activities.”</p>
+         <div class="reviews__stars"></div>
+         <div class="reviews__people">
+            <div class="reviews__people-box bg ">
+               <img class="reviews__people-img" src="./images/reviews/1pic.png" alt="photo">
+               <p class="reviews__people-text">Peter</p>
+            </div>
+            <div class="reviews__people-box">
+               <img class="reviews__people-img" src="./images/reviews/2pic.png" alt="photo">
+               <p class="reviews__people-text">Victor</p>
+            </div>
+            <div class="reviews__people-box">
+               <img class="reviews__people-img" src="./images/reviews/3pic.png" alt="photo">
+               <p class="reviews__people-text">Osinachi</p>
+            </div>
+            <div class="reviews__people-box">
+               <img class="reviews__people-img" src="./images/reviews/4pic.png" alt="photo">
+               <p class="reviews__people-text">Nora Acholo</p>
+               <p class="reviews__people-about">Tripster</p>
+            </div>
+            <div class="reviews__people-box">
+               <img class="reviews__people-img" src="./images/reviews/5pic.png" alt="photo">
+               <p class="reviews__people-text">Klaus</p>
+            </div>
+            <div class="reviews__people-box">
+               <img class="reviews__people-img" src="./images/reviews/6pic.png" alt="photo">
+               <p class="reviews__people-text">Bryan</p>
+            </div>
+            <div class="reviews__people-box">
+               <img class="reviews__people-img" src="./images/reviews/7pic.png" alt="photo">
+               <p class="reviews__people-text">Jin Wei</p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="contact">
+      <svg class="contact__vector" width="630" height="165" viewBox="0 0 630 165" fill="none">
+         <path d="M28 -35C132.596 94.7952 393.829 276.509 602 -35" stroke="#CCF32F" stroke-opacity="0.08"
+            stroke-width="55" stroke-linecap="round" />
+      </svg>
+      <h1 class="contact__title title">
+         Ready to go?
+         <br> Give us a quick call
+      </h1>
+      <button class="contact__btn">
+         Contact us
+         <svg width="18" height="17" viewBox="0 0 18 17" fill="none">
+            <path d="M14.6667 8.5H3.33337" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+            <path
+               d="M11.125 12.0416C11.125 12.0416 14.6667 9.43322 14.6667 8.49992C14.6667 7.56662 11.125 4.95825 11.125 4.95825"
+               stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+
+   <div class="footer">
+      <div class="container">
+         <div class="footer__top">
+            <div class="footer__logo">
+               <svg width="156" height="45" viewBox="0 0 156 45" fill="none">
+                  <path
+                     d="M3.37607 24.6931V6.5113H10.8867C12.248 6.5113 13.4228 6.77763 14.4112 7.3103C15.4055 7.83705 16.172 8.57391 16.7106 9.52088C17.2492 10.4619 17.5185 11.5569 17.5185 12.8057C17.5185 14.0604 17.2433 15.1583 16.6928 16.0994C16.1483 17.0345 15.37 17.7595 14.358 18.2744C13.3459 18.7894 12.1444 19.0468 10.7536 19.0468H6.11932V15.5845H9.93679C10.5997 15.5845 11.1531 15.469 11.5969 15.2382C12.0468 15.0074 12.3871 14.6848 12.6179 14.2705C12.8487 13.8503 12.9641 13.362 12.9641 12.8057C12.9641 12.2434 12.8487 11.7581 12.6179 11.3497C12.3871 10.9354 12.0468 10.6158 11.5969 10.3909C11.1471 10.166 10.5938 10.0536 9.93679 10.0536H7.7706V24.6931H3.37607ZM19.6847 24.6931V11.0568H23.9016V13.5425H24.0437C24.2923 12.6429 24.6977 11.9741 25.2599 11.5362C25.8222 11.0923 26.4762 10.8703 27.2219 10.8703C27.4232 10.8703 27.6303 10.8851 27.8434 10.9147C28.0565 10.9384 28.2547 10.9769 28.4382 11.0301V14.8032C28.2311 14.7322 27.9588 14.676 27.6214 14.6345C27.29 14.5931 26.9941 14.5724 26.7337 14.5724C26.2188 14.5724 25.7541 14.6878 25.3398 14.9186C24.9315 15.1435 24.6089 15.4602 24.3722 15.8685C24.1413 16.271 24.0259 16.7445 24.0259 17.289V24.6931H19.6847ZM33.2766 29.8068C32.7558 29.8068 32.2646 29.7653 31.8029 29.6825C31.3413 29.6055 30.9447 29.5019 30.6133 29.3717L31.5721 26.2201C31.9982 26.3621 32.3829 26.445 32.7262 26.4687C33.0754 26.4924 33.3743 26.4361 33.6229 26.3C33.8774 26.1698 34.0727 25.936 34.2088 25.5987L34.3775 25.1903L29.5302 11.0568H34.0756L36.5881 20.7869H36.7301L39.2781 11.0568H43.8501L38.7099 25.9982C38.4613 26.7439 38.1091 27.4009 37.6534 27.969C37.2036 28.5431 36.6206 28.9929 35.9045 29.3185C35.1942 29.644 34.3183 29.8068 33.2766 29.8068ZM50.0558 24.8884C49.0496 24.8884 48.1352 24.628 47.3125 24.1072C46.4898 23.5863 45.8329 22.8051 45.3416 21.7634C44.8504 20.7218 44.6048 19.4286 44.6048 17.8838C44.6048 16.2799 44.8593 14.96 45.3683 13.9243C45.8772 12.8885 46.5431 12.1221 47.3658 11.6249C48.1944 11.1278 49.0851 10.8792 50.038 10.8792C50.7541 10.8792 51.3667 11.0035 51.8757 11.2521C52.3847 11.4947 52.8049 11.8084 53.1364 12.1931C53.4678 12.5778 53.7193 12.9773 53.891 13.3916H53.9798V6.5113H58.321V24.6931H54.0241V22.4825H53.891C53.7075 22.9028 53.4471 23.2963 53.1097 23.6633C52.7724 24.0302 52.3492 24.3262 51.8402 24.5511C51.3371 24.776 50.7423 24.8884 50.0558 24.8884ZM51.565 21.506C52.0917 21.506 52.5415 21.358 52.9144 21.0621C53.2873 20.7602 53.5743 20.3371 53.7756 19.7925C53.9768 19.248 54.0774 18.6088 54.0774 17.8749C54.0774 17.1292 53.9768 16.487 53.7756 15.9484C53.5803 15.4099 53.2932 14.9956 52.9144 14.7055C52.5415 14.4155 52.0917 14.2705 51.565 14.2705C51.0264 14.2705 50.5707 14.4185 50.1978 14.7144C49.8249 15.0103 49.5408 15.4276 49.3455 15.9662C49.1561 16.5048 49.0614 17.141 49.0614 17.8749C49.0614 18.6088 49.1591 19.248 49.3544 19.7925C49.5497 20.3371 49.8308 20.7602 50.1978 21.0621C50.5707 21.358 51.0264 21.506 51.565 21.506ZM67.4408 24.9506C66.0144 24.9506 64.7834 24.6694 63.7476 24.1072C62.7178 23.539 61.9247 22.7311 61.3683 21.6835C60.8179 20.63 60.5427 19.3782 60.5427 17.9282C60.5427 16.5196 60.8209 15.2885 61.3772 14.235C61.9336 13.1756 62.7178 12.3529 63.7298 11.767C64.7419 11.1751 65.9345 10.8792 67.3076 10.8792C68.2783 10.8792 69.166 11.0301 69.971 11.332C70.7759 11.6338 71.4713 12.0807 72.0573 12.6725C72.6432 13.2644 73.0989 13.9953 73.4244 14.8653C73.75 15.7295 73.9127 16.7208 73.9127 17.8394V18.9225H62.0608V16.4012H69.8733C69.8674 15.9396 69.7579 15.5282 69.5448 15.1672C69.3318 14.8062 69.0388 14.525 68.6659 14.3238C68.299 14.1166 67.8758 14.0131 67.3964 14.0131C66.9111 14.0131 66.4761 14.1226 66.0914 14.3416C65.7066 14.5546 65.4018 14.8476 65.1769 15.2205C64.952 15.5874 64.8337 16.0047 64.8218 16.4722V19.0379C64.8218 19.5943 64.9313 20.0826 65.1503 20.5028C65.3693 20.9171 65.68 21.2396 66.0825 21.4705C66.4849 21.7013 66.9643 21.8167 67.5207 21.8167C67.9054 21.8167 68.2546 21.7634 68.5683 21.6569C68.882 21.5504 69.1512 21.3935 69.3762 21.1864C69.6011 20.9792 69.7697 20.7247 69.8822 20.4229L73.8683 20.5383C73.7026 21.432 73.3386 22.2103 72.7764 22.8732C72.22 23.5301 71.4891 24.0421 70.5835 24.409C69.678 24.7701 68.6304 24.9506 67.4408 24.9506ZM75.7482 9.27231V6.5113H90.2546V9.27231H84.6349V24.6931H81.3679V9.27231H75.7482ZM91.4931 24.6931V11.0568H94.6092V13.3295H94.7512C94.9998 12.5423 95.426 11.9357 96.0297 11.5095C96.6393 11.0775 97.3347 10.8614 98.1159 10.8614C98.2935 10.8614 98.4918 10.8703 98.7108 10.8881C98.9357 10.8999 99.1221 10.9206 99.2701 10.9502V13.9065C99.1339 13.8592 98.9179 13.8178 98.622 13.7822C98.332 13.7408 98.0508 13.7201 97.7786 13.7201C97.1926 13.7201 96.6659 13.8474 96.1983 14.1019C95.7367 14.3504 95.3727 14.6967 95.1064 15.1406C94.84 15.5845 94.7069 16.0964 94.7069 16.6764V24.6931H91.4931ZM105.085 24.9683C104.221 24.9683 103.443 24.8144 102.75 24.5067C102.064 24.193 101.519 23.7313 101.117 23.1217C100.72 22.5121 100.522 21.7605 100.522 20.8668C100.522 20.0974 100.664 19.4611 100.948 18.958C101.232 18.455 101.62 18.0525 102.111 17.7506C102.602 17.4488 103.156 17.2209 103.771 17.067C104.393 16.9072 105.035 16.7918 105.698 16.7208C106.497 16.638 107.145 16.564 107.642 16.4989C108.139 16.4278 108.5 16.3213 108.725 16.1793C108.956 16.0313 109.071 15.8034 109.071 15.4957V15.4424C109.071 14.7736 108.873 14.2557 108.476 13.8888C108.08 13.5218 107.509 13.3384 106.763 13.3384C105.976 13.3384 105.351 13.51 104.89 13.8533C104.434 14.1965 104.126 14.602 103.966 15.0695L100.966 14.6434C101.202 13.8148 101.593 13.1223 102.138 12.566C102.682 12.0037 103.348 11.5835 104.135 11.3053C104.922 11.0212 105.792 10.8792 106.745 10.8792C107.402 10.8792 108.056 10.9561 108.707 11.11C109.358 11.2639 109.953 11.5184 110.492 11.8735C111.03 12.2227 111.462 12.6992 111.788 13.3028C112.119 13.9065 112.285 14.6612 112.285 15.5667V24.6931H109.195V22.8199H109.089C108.894 23.1987 108.618 23.5538 108.263 23.8852C107.914 24.2108 107.473 24.4741 106.941 24.6754C106.414 24.8707 105.795 24.9683 105.085 24.9683ZM105.92 22.6068C106.565 22.6068 107.124 22.4796 107.597 22.2251C108.071 21.9647 108.435 21.6214 108.689 21.1952C108.95 20.7691 109.08 20.3045 109.08 19.8014V18.1945C108.979 18.2774 108.808 18.3543 108.565 18.4254C108.328 18.4964 108.062 18.5585 107.766 18.6118C107.47 18.6651 107.177 18.7124 106.887 18.7538C106.597 18.7953 106.346 18.8308 106.133 18.8604C105.653 18.9255 105.224 19.032 104.845 19.18C104.467 19.3279 104.168 19.5351 103.949 19.8014C103.73 20.0618 103.62 20.3992 103.62 20.8135C103.62 21.4054 103.836 21.8522 104.268 22.1541C104.7 22.4559 105.251 22.6068 105.92 22.6068ZM127.209 11.0568L122.352 24.6931H118.801L113.945 11.0568H117.372L120.506 21.1864H120.648L123.791 11.0568H127.209ZM135.006 24.9595C133.638 24.9595 132.458 24.6754 131.463 24.1072C130.475 23.5331 129.714 22.7222 129.182 21.6746C128.649 20.6211 128.383 19.3812 128.383 17.9548C128.383 16.5521 128.649 15.3211 129.182 14.2617C129.72 13.1963 130.472 12.3677 131.437 11.7759C132.401 11.1781 133.535 10.8792 134.837 10.8792C135.677 10.8792 136.47 11.0153 137.216 11.2876C137.968 11.5539 138.631 11.9682 139.205 12.5305C139.785 13.0927 140.241 13.8089 140.572 14.6789C140.903 15.543 141.069 16.5728 141.069 17.7684V18.7538H129.892V16.5876H137.989C137.983 15.9721 137.849 15.4246 137.589 14.9452C137.329 14.4599 136.965 14.0782 136.497 13.8C136.035 13.5218 135.497 13.3827 134.881 13.3827C134.224 13.3827 133.647 13.5425 133.15 13.8621C132.653 14.1758 132.265 14.5901 131.987 15.105C131.715 15.614 131.576 16.1733 131.57 16.783V18.6739C131.57 19.467 131.715 20.1477 132.005 20.7158C132.295 21.2781 132.7 21.7102 133.221 22.012C133.742 22.3079 134.352 22.4559 135.05 22.4559C135.518 22.4559 135.941 22.3908 136.32 22.2606C136.698 22.1245 137.027 21.9262 137.305 21.6658C137.583 21.4054 137.793 21.0828 137.935 20.6981L140.936 21.0354C140.747 21.8285 140.386 22.521 139.853 23.1129C139.326 23.6988 138.651 24.1545 137.829 24.48C137.006 24.7996 136.065 24.9595 135.006 24.9595ZM147.002 6.5113V24.6931H143.788V6.5113H147.002ZM152.286 24.8884C151.748 24.8884 151.286 24.699 150.901 24.3202C150.517 23.9415 150.327 23.4798 150.333 22.9353C150.327 22.4026 150.517 21.9469 150.901 21.5681C151.286 21.1893 151.748 20.9999 152.286 20.9999C152.807 20.9999 153.26 21.1893 153.645 21.5681C154.035 21.9469 154.234 22.4026 154.239 22.9353C154.234 23.2963 154.139 23.6248 153.955 23.9207C153.778 24.2167 153.541 24.4534 153.245 24.631C152.955 24.8026 152.636 24.8884 152.286 24.8884Z"
+                     fill="#112F38" />
+                  <path d="M2 33.6931C15.6667 40.1931 49.8 49.2931 77 33.6931" stroke="#CCF32F" stroke-width="4"
+                     stroke-linecap="round" />
+               </svg>
+            </div>
+            <nav class="footer__menu">
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <a href="#" class="footer__menu-link">Places</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" class="footer__menu-link">About</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" class="footer__menu-link">Blog</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" class="footer__menu-link">Contact</a>
+                  </li>
+                  <li class="footer__menu-item footer-menu__item-unique">
+                     <a href="#" class="footer__menu-link">Take a trip</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <div class="footer__bottom">
+            <p class="footer__copyright">copyright@ prydetravel 2023</p>
+            <div class="footer__social">
+               <div class="footer__social-item">
+                  <a href="#">
+                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                           d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                           stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                           d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+                           stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M17.5 6.5H17.51" stroke="black" stroke-width="2" stroke-linecap="round"
+                           stroke-linejoin="round" />
+                     </svg>
+                  </a>
+               </div>
+               <div class="footer__social-item">
+                  <a href="#">
+                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                           d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z"
+                           stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M6 9H2V21H6V9Z" stroke="black" stroke-width="2" stroke-linecap="round"
+                           stroke-linejoin="round" />
+                        <path
+                           d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z"
+                           stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </svg>
+                  </a>
+               </div>
+               <div class="footer__social-item">
+                  <a href="#">
+                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                           d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                           stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </svg>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
    <script src="js/main.min.js"></script>
 </body>
 
