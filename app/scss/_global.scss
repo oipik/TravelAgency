@@ -56,7 +56,7 @@ body {
    height: 45px;
    border-radius: 33px;
    border: 1px solid #FFF;
-   background: rgba(255, 255, 255, 0.54);
+   // background: rgba(255, 255, 255, 0.54);
    cursor: pointer;
 }
 
@@ -65,13 +65,19 @@ body {
    height: 45px;
    border-radius: 33px;
    border: 1px solid #FFF;
-   background: #FFF;
+   // background: #FFF;
    cursor: pointer;
 }
 
 .number {
    @extend %inter;
-   margin: 0 17px;
+}
+
+.all {
+   margin-right: 17px;
+}
+.current {
+   margin-left: 17px;
 }
 
 .text-up {
