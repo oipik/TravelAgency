@@ -3,7 +3,6 @@
 @import 'reset';
 @import 'global';
 
-
 .header {
     //background-image: url('../images/slider_header/slider1.jpg');
     background-repeat: no-repeat;
@@ -16,7 +15,6 @@
         background-size: cover;
         height: 103%;
     }
-
     &__top {
         padding-top: 55px;
         display: flex;
@@ -164,10 +162,99 @@
 
 .popularplace {
     margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    &__box {
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__btn {
+        width: 82px;
+        height: 45px;
+        border-radius: 33px;
+        border: 2px solid #112F38;
+        background: rgba(255, 255, 255, 0.54);
+        // background: #112F38;
+        cursor: pointer;
+    }
+    &__wrapper {
+        max-width: 1465px;
+        overflow-x: hidden;
+    }
+    &__inner {
+        display: flex;
+        transition: .7 all;
+        gap: 40px;
+    }
+    &__inner-slider {
+        width: 327px;
+        height: 452px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.48%, #112F38 170%);
+        position: relative;
+    }
+    &__slider {
+        &-img {
+            position:relative;
+            z-index:-1;
+        }
+        &-content {
+            z-index: 2;
+            position: absolute;
+            bottom: 42px;
+            text-align: center;  
+            width: inherit;
+        }      
+        &-title {
+            @extend %playfaier;
+            color: #FFF;
+            font-size: 37px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+        &-country {
+            @extend %inter;
+            color: #FFF;
+            font-size: 18px;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 22px;
+                height: 22px;
+                left: -28px;
+            }
+            &--india::before {
+                content: url('../images/popularPlace/icons/india.png');
+            }
+            &--nigeria::before {
+                content: url('../images/popularPlace/icons/nigeria.png');
+            }
+            &--france::before {
+                content: url('../images/popularPlace/icons/france.png');
+            }
+        }
+        &-number {
+            @extend %inter;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 16px;
+        }
+    }
+}
+.sliders {
+    display: flex;
+    justify-content: space-between; 
 }
 
 .getpacked {
-    margin-top: 120px;
+    max-width: 1270px;
+    margin: 120px auto 0;
+    // display: flex;
+    // justify-content: center;
     &__box {
         @extend %inter;
         color: #0E3D4D;
@@ -224,7 +311,7 @@
         }
     }
     &__item-first {
-        margin: 20px 0;
+        margin: 100px 0 20px 0;
     }
     &__item-second {
         margin-bottom: 20px;
@@ -232,7 +319,8 @@
 }
 
 .journeys {
-    margin-top: 137px;
+    max-width: 1250px;
+    margin: 137px auto 0;
     &__text-up {
         text-align: center;
     }
@@ -242,10 +330,16 @@
     }
     &__box {
         margin-bottom: 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 36px;
     }
     &__btn-all {
         @extend %btn;
-        margin-bottom: 80px;    
+        margin-bottom: 80px;   
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -304,7 +398,7 @@
     &__vector {
         position: absolute;
         top: 0px;
-        left: 25%;
+        left: 39%;
     }
     &__title {
         color: #FFF;
@@ -373,12 +467,6 @@
         }
     }
 }
-
-// #vector1right, #vector2right {
-//     stroke: blue;
-// }
-
-
 
 
 

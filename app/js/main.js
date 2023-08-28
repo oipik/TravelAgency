@@ -63,4 +63,40 @@ document.addEventListener('DOMContentLoaded', () => {
     next.addEventListener('click', (e) => {
         plusSlide(1);
     });
+
+    // slider popular place
+    let slidesWrapper = document.querySelector('.popularplace__wrapper'),
+        slidesField = document.querySelector('.popularplace__inner'),
+        slides = document.querySelectorAll('.sliders'),
+        prevSlide = document.querySelector('.popularplace__btn-prev'),
+        nextSlide = document.querySelector('.popularplace__btn-next'),
+        width = window.getComputedStyle(slidesWrapper).width;
+
+    let offset = 0;
+
+    slidesField.style.width = 100 * slides.length + '%';
+
+    slides.forEach(item => {
+        item.style.width = width;
+    });
+
+    nextSlide.addEventListener('click', () => {
+        if(offset == +width.slice(0, width.length - 2) * (slides.length - 1)) {
+            offset = 0;
+        } else {
+            offset += +width.slice(0, width.length - 2);
+        }
+
+        slidesField.style.transform = `translateX(-${offset}px)`;
+    });
+
+    prevSlide.addEventListener('click', () => {
+        if(offset == 0) {
+            offset = +width.slice(0, width.length - 2) * (slides.length - 1);
+        } else {
+            offset -= +width.slice(0, width.length - 2);
+        }
+
+        slidesField.style.transform = `translateX(-${offset}px)`;
+    });
 })
