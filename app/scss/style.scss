@@ -398,7 +398,8 @@
     &__vector {
         position: absolute;
         top: 0px;
-        left: 39%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     &__title {
         color: #FFF;
